@@ -37,7 +37,7 @@ jobs:
 
       - run:
           name: "Install sqlite"
-          command: sudo apt install sqlite3
+          command: sudo apt-get install sqlite3
 
       - run:
           name: "Create database and run migration"
